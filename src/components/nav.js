@@ -1,9 +1,14 @@
 import { Link, Route, Routes } from "react-router-dom";
+import {BrowserRouter} from 'react-router-dom';
+import Home from "./scrins/home";
+import About from "./scrins/about";
+import Gallery from "./scrins/gallery";
+import Contect from "./scrins/contect";
 
  export default function Nav(){
     return(
         <>
-        <BrowserRauter>
+        <BrowserRouter>
 
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
@@ -15,13 +20,13 @@ import { Link, Route, Routes } from "react-router-dom";
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/about">About</Link>|
+          <Link className="nav-link active" aria-current="page" to="/About">About</Link>|
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/gallery">Gallery</Link>|
+          <Link className="nav-link" to="/Gallery">Gallery</Link>|
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/contect">Contect</Link>|
+          <Link className="nav-link" to="/Contect">Contect</Link>|
         </li>
 
       </ul>
@@ -30,12 +35,12 @@ import { Link, Route, Routes } from "react-router-dom";
 </nav>
 
 <Routes>
-  <Route path="/" element={<home />} />
-  <Route path="/about" element={<about />} />
-  <Route path="/contect" element={<contect />} />
-  <Route path="/gallery" element={<gallery />} />
+  <Route path="/" element={<Home />} />
+  <Route path="/About" element={<About />} />
+  <Route path="/Contect" element={<Contect />} />
+  <Route path="/Gallery" element={<Gallery />} />
 </Routes>
-</BrowserRauter>
+</BrowserRouter>
         </>
 
     );

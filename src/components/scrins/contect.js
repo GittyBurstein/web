@@ -1,6 +1,6 @@
 import Nav from "../nav";
 
- export default function contect()
+ export default function Contect()
 {
    return(
     <>
