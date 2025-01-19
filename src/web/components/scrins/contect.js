@@ -4,7 +4,6 @@ import Nav from "../nav";
 {
    return(
     <>
-    <Nav></Nav>
     <p>"welcome to contect!!"</p>
     </>
    );

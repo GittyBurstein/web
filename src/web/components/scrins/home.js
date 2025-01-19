@@ -4,7 +4,7 @@ import Nav from "../nav";
 {
    return(
     <>
-    <Nav></Nav>
+    {/* <Nav></Nav> */}
     <p>"welcome to home!!"</p>
     </>
    );

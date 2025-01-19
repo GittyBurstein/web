@@ -1,10 +1,9 @@
-import Nav from "../nav";
+import Nav from "../nav.js";
 
  export default function About()
 {
    return(
     <>
-    <Nav></Nav>
     <p>"welcome to about!!"</p>
     </>
    );
