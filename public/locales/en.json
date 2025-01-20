@@ -1,0 +1,15 @@
+{"about":{
+    "Link":"about",
+    "p":"do you want to know more details about us"
+},
+"gallery":{
+    "Link":"gallery",
+    "p":"look at our magnifises gallery"
+},"home":{
+    "Link":"home",
+    "p":"welcome to website!!"
+},"contect":{
+    "Link":"contect",
+    "p":"to contact with us please phone us"
+}
+}
