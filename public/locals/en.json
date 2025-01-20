@@ -1,0 +1,18 @@
+{
+    "about":{
+        "Link": "about",
+        "p":"do you want to now more details about us?..."
+    },
+    "home":{
+        "Link": "home",
+        "p":"welcome to our website!!"
+    },
+    "gallery":{
+        "Link": "gallery",
+        "p":"to "
+    },
+    "contact":{
+        "Link": "contact",
+        "p":"contact us with this number-0534163997"
+    }
+}

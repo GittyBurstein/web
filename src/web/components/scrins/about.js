@@ -1,10 +1,11 @@
 import Nav from "../nav.js";
-
- export default function About()
+import {useTranslation} from "react-i18next";
+export default function About()
 {
+   const{t}=useTranslation();
    return(
     <>
-    <p>"welcome to about!!"</p>
+    <p>{t('about.p')}</p>
     </>
    );
 }
