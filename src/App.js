@@ -1,14 +1,21 @@
 import './App.css';
-import Nav from './web/components/nav.js';
-import { BrowserRouter } from 'react-router-dom';
-
+import store from './Lesson-5-Redux/Redux/Store.js';
+//import Nav from './web/components/nav.js';
+//import { BrowserRouter } from 'react-router-dom';
+import Screen from './Lesson-5-Redux/componnents/Screen.js';
+import { Provider } from 'react-redux';
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Nav />
-      </div>
-    </BrowserRouter>
+  <Provider store={store}>
+    <div>
+       <Screen></Screen>
+    </div>
+ </Provider>
+    //<BrowserRouter>
+     // <div className="App">
+        //<Nav />
+      //</div>
+    //</BrowserRouter>
   );
 }
 
