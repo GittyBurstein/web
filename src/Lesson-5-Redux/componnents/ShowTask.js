@@ -7,10 +7,9 @@ export default function ShowTask() {
     const dispatch = useDispatch();
 
     const handleAddTask = () => {
-        if (input.trim()) {
+       
             dispatch(addition(input)); // Dispatch the action to add the task
             setInput(''); // Clear the input after adding
-        }
     };
     return (
         <>

@@ -1,2 +1,4 @@
 export const REMOVAL='REMOVAL';
 export const ADDITION='ADDITION';
+export const ADDTORECYCLEBYN='ADDTORECYCLEBYN';
+export const REMOVEEVER='REMOVEEVER';
