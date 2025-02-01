@@ -6,7 +6,7 @@ export default function Task({ value, id ,placMent}) {
     const dispatch = useDispatch();
    function sending(placMent)
    {
-    if(placMent=="task")
+    if(placMent==="task")
        dispatch(removal(id,value));
     else
        dispatch(removeEver(id,value));
@@ -16,7 +16,7 @@ export default function Task({ value, id ,placMent}) {
         <p className="mb-0">{value}</p>
         <button 
             className="btn btn-danger btn-sm" 
-            onClick={sending(placMent)}
+            onClick={() => sending(placMent)}
         >
             Remove Task
         </button>
