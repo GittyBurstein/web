@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.message-card {
+  border-radius: 5px; /* מסגרת פחות מעוגלת */
+  max-width: 60%;
+  word-wrap: break-word;
+  display: inline-block;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* צל רך */
+}
+
+.left-message {
+  background-color: #dfe6e9; /* צבע כחול בהיר מאוד */
+  border: 1px solid #b2bec3; /* גבול רך */
+  text-align: left;
+  align-self: flex-start;
+}
+
+.right-message {
+  background-color: #e8f4f8; /* צבע אפור בהיר מאוד */
+  color: #2d3436; /* צבע טקסט כהה */
+  border: 1px solid #b2bec3; /* גבול רך */
+  text-align: right;
+  align-self: flex-end;
+}
